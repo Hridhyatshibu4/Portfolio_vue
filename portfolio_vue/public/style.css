@@ -1,0 +1,103 @@
+/* Reset some default styles */
+body,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main content container */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Section styles */
+.section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Header styles for sections */
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Link styles within sections */
+.section a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+
+/* List styles */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Contact section styles */
+#contact {
+  background-color: #0078d4;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .content {
+    padding: 10px;
+  }
+
+  /* Reduce font size for headers on smaller screens */
+  .section h2 {
+    font-size: 20px;
+  }
+
+  /* Adjust padding for sections on smaller screens */
+  .section {
+    padding: 15px;
+  }
+}
